@@ -4,77 +4,41 @@
  * You can modify these styles but you don't have to
  */
 
+/*
+ VARIABLES
+*/
+:root {
+  /* Core colours */
+  /* https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557 */
+  --colour-amaranth: #e63946;
+  --colour-peppermint: #f1faee;
+  --colour-aquaisland: #a8dadc;
+  --colour-wedgewood: #457b9d;
+  --colour-cello: #1d3557;
 
- body {
-  color: #3c544a;
+  /* Header configuration */
+  --header-heading-colour: var(--colour-peppermint);
+
+  /* Body configuration */
+  --body-default-colour: var(--colour-cello);
+  --body-background-colour: var(--colour-peppermint);
+}
+
+/*
+  PAGE / BODY
+*/
+body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #ff9e00;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+  color: var(--body-default-colour);
+  background-color: var(--body-background-colour);
 }
 
 main {
-  margin: 1rem 1rem;
-  border-radius: 2rem;
-  padding: 1rem 2rem;
+  min-height: 100vh;
 
-  border: 4px solid #240046;
-  background-color: #cdb0e5;
-  color: #240046;
-  max-width: 600px;
-
-  display: block;
-}
-
-@media screen and (min-width: 900px) {
-  main {
-    max-width: 800px;
-  }
-
-}
-
-@media screen and (min-width: 1200px) {
-  main {
-    max-width: 1100px;
-  }
-
-}
-
-h2 {
-  margin-top: 1rem;
-}
-
-.btn-container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-.btn {
-  margin: 1rem 0 0.5rem 0;
-  display: inline-block;
-  padding: 1rem 4rem;
-  border-radius: 2rem;
-  border: 4px solid #240046;
-  background-color: #9d4edd;
-  color: #240046;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-decoration: none;
-  text-align: center;
-  transition: all 0.2s ease-in;
-  cursor: pointer;
-}
-
-.btn:hover {
-  border-color: #ff6d00;
-  background-color: #ff8500;
-  color: #2b2d42;
 }
 
 
