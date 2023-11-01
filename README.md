@@ -23,22 +23,37 @@ Todo lists are like a "right of passage" in webdev tutorials. A simple Todo list
 
 Your Assignment 04 involves building and shipping an awesome and innovative Todo list app, as well as doing a basic code review on a team member's submission.
 
+Students will also be assessed on their ability to commit their code to GitHub and activate the GitHub pages service.
+
+
+## Table of contents
+
+- [Instructions for the app](#instructions-for-the-app)
+- [Instructions for the code review](#instructions-for-the-code-review)
+- [Acceptance criteria](#assignment-acceptance-criteria)
+- [Grading rubric](#grading-rubric)
+- [Late submissions](#late-submissions)
+- [Checklist](#checklist)
+- [Submitting your work](#submitting-your-work)
+- [Helpful Links](#helpful-links)
+
+
 ## Instructions for the app 
 
-1. Use HTML, CSS, and JS to build a Todo List web app.
+1. Use HTML, CSS, and JS to build a basic Todo List web app.
 2. The UI/UX is completely up to you, though it must be responsive and at a minimum enable users to view, add, mark as done, and delete `todos`. 
 3. Using user centered design principles, consider what additional properties and features your users may need for an awesome Todo list. 
-4. Your `todos` are going to have, at a minimum, a `title`, and `done` status.
+4. Your `todos` are going to have, at a minimum, an `id`, `text` and `completed` status.
 5. You should also have an awesome empty state when a user first opens your app ([examples](https://www.toptal.com/designers/ux/empty-state-ux-design)).  
 6. Though not required, consider "branding" your app with a cool product name, and logo. 
 
 ## Instructions for the code review
 
-It is your responsibility to both request a code review from your team members and to conduct a code review for one of your team members. 
+It is your responsibility to both request a code review from your team members and to conduct a code review for one of your team members.
 
 ### Request code review 
 
-1. When you are between 50% - 100% completed your assignment 03, inform your team members that you require a code review
+1. When you are between 50% - 100% completed your assignment 04, inform your team members that you require a code review. 
 
 ### Conduct code review 
 
@@ -46,7 +61,7 @@ It is your responsibility to both request a code review from your team members a
 2. Create a GitHub Issue in your team members assignment 03 repository to record the results of the following checks 
 3. Check to see that their HTML code validates using the [WC3 HTML Validator](https://validator.w3.org)
 4. Check to see that their CSS code validates using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-5. Check to see that basic functionality is working in their web app (add todo, delete todo)
+5. Check to see that basic functionality is working in their web app (add todo, delete todo, mark as done)
 
 ## Assignment acceptance criteria 
 
@@ -57,23 +72,22 @@ It is your responsibility to both request a code review from your team members a
 
 ## Grading rubric
 
-The creation and posting of this web page is worth 25% of your final grade and marked out of 100.
+The creation and posting of this web app is worth 15% of your final grade and marked out of 100.
 
 |Criteria|Total&nbsp;Marks|How we define excellence|
 |----|----|----|
 |Visual design and layout|**20%**|The design presented demonstrates an excellent use of colour (or lack thereof), typography, high quality graphics, and iconography. The design also comes across as cohesive, inviting, and illustrates a focus on user experience. An excellent design also includes a way of delighting users and adding moments of charm to their experience. The solution is responsive to the users' viewport and displays well in mobile, tablet, and desktop browsers.|
 |HTML|**20%**|The HTML code submitted is well formed, structured, and complaint. Appropriate semantic elements are used throughout the document. For example, use `<header>` for the page header and `<section>` for each document section within `<main>`. Correct use of headings `<h1-h6>` and heading structure. The web page has the appropriate meta tags in the `<head>` to set the charset, viewport and IE11 legacy mode values.|
 |CSS|**20%**|The CSS code submitted is well formed, structured, and compliant. A CSS reset file is used to 'reset' all of the default browser styles. The web page renders correctly in multiple browsers, including but not limited to Firefox and / or Chrome. All CSS should be referenced from an external file. The web page should not use a `<style>` tag or a embedded `style` attributes to apply CSS to the page.|
-|JavaScript|**20%**|The JS code submitted is well formed, structured, and compliant. No run time errors should occur. If an error occurs it should be caught and dealt with appropriately. Your code should be written to the latest ECMAScript 2022 standard.|
-|Code&nbsp;review|**10%**|Perform a code review on a team members assignment 03 submission and record the results within a GitHub issue in a team members assignment 03 repository.|
+|JavaScript|**20%**|The JS code submitted is well formed, structured, and compliant. No run time errors should occur. If an error occurs it should be caught and dealt with appropriately.|
+|Code&nbsp;review|**10%**|Perform a code review on a team members assignment submission and record the results within a GitHub issue in a team members assignment repository.|
 |GitHub&nbsp;submission|**10%**|All of the project files (HTML, CSS, JS, assets) are added to your assignment repository on GitHub. The repository has both a populated READMe.md file and a MIT license file.|
 
 ## Late submissions
 
-* If you intend to use one of your assignment extensions please email [mispeln@algonquincollege.com](mailto:mispeln@algonquincollege.com) before the specified due date
-* If you are ill or any other issues arise that are beyond your control, please email [mispeln@algonquincollege.com](mailto:mispeln@algonquincollege.com) before the specified due date to discuss alternate arrangements
-* If you fail to request your late pass, or fail to inform me of any extenuating circumstances that cause a delay in your submission by the due date, you will receive a mark of **Zero (0)** for the assignment 
-* If you use your late pass, and fail to submit your assignment by one week after the specified due date, you will receive a mark of **Zero (0)** for the assignment
+- If you are ill or any other issues arise that are beyond your control, please email [neil.mispelaar@carleton.ca](mailto:neil.mispelaar@carleton.ca) before the specified due date to request a one week extention.
+- If you fail to obtain an extentaion or fail to inform the instructor of any extenuating circumstances that cause a delay in your submission by the posted due date, you will receive a mark of **Zero (0)** for the assignment.
+
 
 ## Screenshots for inspiration 
 
@@ -109,6 +123,16 @@ The following are some samples of excellent Todo List applications out there. Yo
 
 [Source](https://culturedcode.com/things/)
 
+
+## Checklist
+
+To help with your submission, make sure that you have reviewed the following items
+
+- [x] Your app has the minimum functionality required for a basic Todo List App (add, delete, mark as done)
+- [x] Your code is committed and pushed to the GitHub repo that GitHub Classrooms created for you
+- [x] You have conducted a code review on one of your team members assignments
+- [x] One of your team members have conducted a code review on your assignment
+- [x] [GitHub Pages](https://github.com/orgs/irm1005-itec1005-fall-2023/discussions/4) is activated for your repo and your web page is live and accessible. If you are unsure, send your link to a team member and see if they can access your site from their machine.
 
 ## Frequently Asked Questions (FAQ)
 
