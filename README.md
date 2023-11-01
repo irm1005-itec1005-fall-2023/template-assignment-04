@@ -53,7 +53,7 @@ It is your responsibility to both request a code review from your team members a
 
 ### Request code review 
 
-1. When you are between 50% - 100% completed your assignment 04, inform your team members that you require a code review. 
+1. When you are between 50% - 100% completed your assignment 04, inform your team members that you require a code review. Post a message in our [GitHub Discussion group if you need a code review](https://github.com/orgs/irm1005-itec1005-fall-2023/discussions/15).
 
 ### Conduct code review 
 
