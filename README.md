@@ -58,7 +58,7 @@ It is your responsibility to both request a code review from your team members a
 ### Conduct code review 
 
 1. Work with your team members to identify when someone requests a code review 
-2. Create a GitHub Issue in your team members assignment 03 repository to record the results of the following checks 
+2. Create a GitHub Issue in your team members assignment  repository to record the results of the following checks 
 3. Check to see that their HTML code validates using the [WC3 HTML Validator](https://validator.w3.org)
 4. Check to see that their CSS code validates using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 5. Check to see that basic functionality is working in their web app (add todo, delete todo, mark as done)
