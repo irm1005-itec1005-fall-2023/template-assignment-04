@@ -66,7 +66,7 @@ It is your responsibility to both request a code review from your team members a
 
 ## Screenshots for inspiration 
 
-The following are some samples of excellent Todo List applications out there. You do not, and should not build these specfic designs. This is only being shared to illustrate what the industry is putting out there right now, and to provide some inspiration to for your own designs and features.
+The following are some samples of excellent Todo List applications out there. You do not, and should not build these specfic designs. This is only being shared to illustrate what the industry is putting out there right now, and to provide some inspiration for your own designs and features.
 
 ### Super Simple Todo List App 
 
