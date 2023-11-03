@@ -34,7 +34,6 @@ Students will also be assessed on their ability to commit their code to GitHub a
 - [Grading rubric](#grading-rubric)
 - [Late submissions](#late-submissions)
 - [Checklist](#checklist)
-- [Submitting your work](#submitting-your-work)
 - [Helpful Links](#helpful-links)
 
 
