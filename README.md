@@ -33,7 +33,6 @@ Students will also be assessed on their ability to commit their code to GitHub a
 - [Screenshots for inspiration](#screenshots-for-inspiration) 
 - [Acceptance criteria](#assignment-acceptance-criteria)
 - [Grading rubric](#grading-rubric)
-- [Late submissions](#late-submissions)
 - [Checklist](#checklist)
 - [FAQ](#frequently-asked-questions-faq)
 - [Helpful Links](#helpful-links)
