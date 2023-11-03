@@ -30,10 +30,12 @@ Students will also be assessed on their ability to commit their code to GitHub a
 
 - [Instructions for the app](#instructions-for-the-app)
 - [Instructions for the code review](#instructions-for-the-code-review)
+- [Screenshots for inspiration](#screenshots-for-inspiration) 
 - [Acceptance criteria](#assignment-acceptance-criteria)
 - [Grading rubric](#grading-rubric)
 - [Late submissions](#late-submissions)
 - [Checklist](#checklist)
+- [FAQ](#frequently-asked-questions-faq)
 - [Helpful Links](#helpful-links)
 
 
@@ -62,35 +64,9 @@ It is your responsibility to both request a code review from your team members a
 4. Check to see that their CSS code validates using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 5. Check to see that basic functionality is working in their web app (add todo, delete todo, mark as done)
 
-## Assignment acceptance criteria 
-
-* Publish your code to GitHub using the GitHub classrooms generated repository
-* Use the GitHub Pages service to host your pages
-* GitHub time stamps on your project files will be used to asses when the assignment was submitted
-* Ensure you have a license file in your repository (recommend MIT license)
-
-## Grading rubric
-
-The creation and posting of this web app is worth 15% of your final grade and marked out of 100.
-
-|Criteria|Total&nbsp;Marks|How we define excellence|
-|----|----|----|
-|Visual design and layout|**20%**|The design presented demonstrates an excellent use of colour (or lack thereof), typography, high quality graphics, and iconography. The design also comes across as cohesive, inviting, and illustrates a focus on user experience. An excellent design also includes a way of delighting users and adding moments of charm to their experience. The solution is responsive to the users' viewport and displays well in mobile, tablet, and desktop browsers.|
-|HTML|**20%**|The HTML code submitted is well formed, structured, and complaint. Appropriate semantic elements are used throughout the document. For example, use `<header>` for the page header and `<section>` for each document section within `<main>`. Correct use of headings `<h1-h6>` and heading structure. The web page has the appropriate meta tags in the `<head>` to set the charset, viewport and IE11 legacy mode values.|
-|CSS|**20%**|The CSS code submitted is well formed, structured, and compliant. A CSS reset file is used to 'reset' all of the default browser styles. The web page renders correctly in multiple browsers, including but not limited to Firefox and / or Chrome. All CSS should be referenced from an external file. The web page should not use a `<style>` tag or a embedded `style` attributes to apply CSS to the page.|
-|JavaScript|**20%**|The JS code submitted is well formed, structured, and compliant. No run time errors should occur. If an error occurs it should be caught and dealt with appropriately.|
-|Code&nbsp;review|**10%**|Perform a code review on a team members assignment submission and record the results within a GitHub issue in a team members assignment repository.|
-|GitHub&nbsp;submission|**10%**|All of the project files (HTML, CSS, JS, assets) are added to your assignment repository on GitHub. The repository has both a populated READMe.md file and a MIT license file.|
-
-## Late submissions
-
-- If you are ill or any other issues arise that are beyond your control, please email [neil.mispelaar@carleton.ca](mailto:neil.mispelaar@carleton.ca) before the specified due date to request a one week extention.
-- If you fail to obtain an extentaion or fail to inform the instructor of any extenuating circumstances that cause a delay in your submission by the posted due date, you will receive a mark of **Zero (0)** for the assignment.
-
-
 ## Screenshots for inspiration 
 
-The following are some samples of excellent Todo List applications out there. You do not, and should not build these specfic designs. This is only being shared to illustrate what the industry is putting out there right now, and to provide some inspiration to for your own designs and features.
+The following are some samples of excellent Todo List applications out there. You do not, and should not build these specfic designs. This is only being shared to illustrate what the industry is putting out there right now, and to provide some inspiration for your own designs and features.
 
 ### Super Simple Todo List App 
 
@@ -122,6 +98,33 @@ The following are some samples of excellent Todo List applications out there. Yo
 
 [Source](https://culturedcode.com/things/)
 
+
+## Assignment acceptance criteria 
+
+* Publish your code to GitHub using the GitHub classrooms generated repository
+* Use the GitHub Pages service to host your pages
+* GitHub time stamps on your project files will be used to asses when the assignment was submitted
+* Ensure you have a license file in your repository (recommend MIT license)
+
+## Grading rubric
+
+The creation and posting of this web app is worth 15% of your final grade and marked out of 100.
+
+|Criteria|Total&nbsp;Marks|How we define excellence|
+|----|----|----|
+|Visual design and layout|**10%**|The design presented demonstrates an excellent use of colour (or lack thereof), typography, high quality graphics, and iconography. The design also comes across as cohesive, inviting, and illustrates a focus on user experience. An excellent design also includes a way of delighting users and adding moments of charm to their experience. The solution is responsive to the users' viewport and displays well in mobile, tablet, and desktop browsers.|
+|Overall Code Quality|**10%**|The HTML, CSS, and JS Code is well formed, structured, and compliant. Approriate semantic elements and heading structure are used. No run time errors occur. CSS is stored in a seperate file and the `style` tag as well as inline styles are avoided.|
+|Add to do |**10%**|Ability to add a to do item|
+|Delete to do|**15%**|Ability to delete a to do item|
+|Mark a to do as done|**15%**|Ability to mark a todo item as completed|
+|Moments of charm|**10%**|App adds something special such as annimations, transitions, categories, or anything else that elevates the user experience from "normal" to "awesome".|
+|Code&nbsp;review|**20%**|Perform a code review on a team members assignment submission and record the results within a GitHub issue in a team members assignment repository.|
+|GitHub&nbsp;submission|**10%**|All of the project files (HTML, CSS, JS, assets) are added to your assignment repository on GitHub. The repository has both a populated READMe.md file and a MIT license file.|
+
+## Late submissions
+
+- If you are ill or any other issues arise that are beyond your control, please email [neil.mispelaar@carleton.ca](mailto:neil.mispelaar@carleton.ca) before the specified due date to request a one week extention.
+- If you fail to obtain an extentaion or fail to inform the instructor of any extenuating circumstances that cause a delay in your submission by the posted due date, you will receive a mark of **Zero (0)** for the assignment.
 
 ## Checklist
 
